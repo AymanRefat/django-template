@@ -1,0 +1,9 @@
+[run]
+branch = True
+[html]
+directory = coverage_html_report
+
+[report]
+exclude_also =
+    def __repr__
+		def __str__

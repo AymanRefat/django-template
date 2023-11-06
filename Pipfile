@@ -11,6 +11,7 @@ pytest-django = "*"
 isort = "*"
 black = "*"
 flake8 = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.11"
