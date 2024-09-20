@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 
-DEBUG = True if os.getenv("DEBUG", "on") == "on" else False
+DEBUG = True if os.getenv("DEBUG", "on").lower() == "on" else False
 
 
 INSTALLED_APPS = [

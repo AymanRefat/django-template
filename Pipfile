@@ -5,13 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
-pytest-django = "*"
 
 [dev-packages]
-isort = "*"
-black = "*"
-flake8 = "*"
 coverage = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+factory-boy = "*"
+pytest-factoryboy = "*"
 
 [requires]
 python_version = "3.11"

@@ -1,5 +1,4 @@
-from .base import * 
-
+from .base import *  # noqa
 
 
 ALLOWED_HOSTS = ["*"]

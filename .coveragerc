@@ -1,7 +1,23 @@
 [run]
 branch = True
+omit =
+    */migrations/*
+		apps.py
+		urls.py
+		asgi.py
+		wsgi.py
+		admin.py
+		manage.py
+		*/settings/*
+		conftest.py
+		__init__.py
+		*/tests/*
+		tests.py
 [html]
-directory = coverage_html_report
+directory = reports/coverage
+# .coveragerc
+
+
 
 [report]
 exclude_also =
